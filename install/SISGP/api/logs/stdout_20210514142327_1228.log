@@ -1,0 +1,20 @@
+It was not possible to find any compatible framework version
+The specified framework 'Microsoft.AspNetCore.App', version '3.1.0' was not found.
+  - Check application dependencies and target a framework version installed at:
+      C:\Program Files\dotnet\
+  - Installing .NET Core prerequisites might help resolve this problem:
+      https://go.microsoft.com/fwlink/?LinkID=798306&clcid=0x409
+  - The .NET Core framework and SDK can be installed from:
+      https://aka.ms/dotnet-download
+  - The following versions are installed:
+      2.2.1 at [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+It was not possible to find any compatible framework version
+The specified framework 'Microsoft.AspNetCore.App', version '3.1.0' was not found.
+  - Check application dependencies and target a framework version installed at:
+      C:\Program Files\dotnet\
+  - Installing .NET Core prerequisites might help resolve this problem:
+      https://go.microsoft.com/fwlink/?LinkID=798306&clcid=0x409
+  - The .NET Core framework and SDK can be installed from:
+      https://aka.ms/dotnet-download
+  - The following versions are installed:
+      2.2.1 at [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]

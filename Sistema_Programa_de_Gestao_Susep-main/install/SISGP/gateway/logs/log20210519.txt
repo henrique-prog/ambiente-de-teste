@@ -1,0 +1,307 @@
+2021-05-19 10:24:07.235 -03:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1878738545-2699076131-2710155362-3366582735-887525985\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-19 10:24:07.526 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost/gateway/connect/token application/x-www-form-urlencoded 97
+2021-05-19 10:24:07.549 -03:00 [INF] CORS policy execution successful.
+2021-05-19 10:24:07.550 -03:00 [WRN] Failed to determine the https port for redirect.
+2021-05-19 10:24:07.723 -03:00 [INF] requestId: 0HM8QP5GMQN2S:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/connect/{everything}
+2021-05-19 10:24:07.727 -03:00 [INF] requestId: 0HM8QP5GMQN2S:00000001, previousRequestId: no previous request id, message: No authentication needed for /connect/token
+2021-05-19 10:24:07.729 -03:00 [INF] requestId: 0HM8QP5GMQN2S:00000001, previousRequestId: no previous request id, message: /api/connect/{everything} route does not require user to be authorised
+2021-05-19 10:24:11.651 -03:00 [INF] requestId: 0HM8QP5GMQN2S:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/connect/token
+2021-05-19 10:24:11.675 -03:00 [INF] Request: http localhost/connect/token  grant_type=client_credentials&client_id=SISGP.Web&scope=SISGP.ProgramaGestao&client_secret=secret
+Request headers:
+Connection:Keep-Alive
+Content-Type:application/x-www-form-urlencoded
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+Referer:http://localhost/app
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Origin:http://localhost
+Content-Length:97
+MS-ASPNETCORE-TOKEN:c9b61792-1d74-4416-a114-0a0ba2b56384
+X-Original-Proto:http
+X-Original-For:127.0.0.1:52584
+Response: 200: {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjE0MzA2NTEsImV4cCI6MTYyMTQzNDI1MSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwianRpIjoiNTY5MDk0RThGOUNENjFDOTUzMjMzQUU5RDBFQTVDQUYiLCJpYXQiOjE2MjE0MzA2NTEsInNjb3BlIjpbIlNJU0dQLlByb2dyYW1hR2VzdGFvIl19.THS7nX4nxCG4aH4fZ-v5cy5BCoPAYMQtNrn0Xp37O_UOsc7pMLL8YEKUXhgjIsL3Wj11K_bbh_xify7y9T5wncFdPuraTlCzQBpa0fNDlhD5ggLBHjgvdj0WYTA2pupcV0jc7KpHF_ayz1Ed2Rx7apO5zlfQFt8gWUny_X3NG98RutB6IWkzDUIzotiFIDWGQutx683X2jtRI4DUpeB0qfmjo33Pps2WmEaRxW4V5BwNxOGqqjkIkBlM2VTJ1C6EITJaWp-YESuTI5ZoG4ri9b8FNP8m6wy9BaGB7gvUg5BUtqI4SEpBAw4bZoewcJUaHJS4JiWB5fVfw1y3tzQaww","expires_in":3600,"token_type":"Bearer","scope":"SISGP.ProgramaGestao"}
+Response headers: 
+Cache-Control:no-store, no-cache, max-age=0
+Date:Wed, 19 May 2021 13:24:11 GMT
+Pragma:no-cache
+Content-Type:application/json; charset=UTF-8
+Server:Kestrel
+Access-Control-Allow-Origin:*
+Content-Length:801
+X-Powered-By:ASP.NET
+
+2021-05-19 10:24:11.680 -03:00 [INF] Request finished in 4157.5947ms 200 application/json; charset=UTF-8
+2021-05-19 10:34:52.360 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost/gateway/connect/token application/x-www-form-urlencoded 125
+2021-05-19 10:34:52.362 -03:00 [INF] CORS policy execution successful.
+2021-05-19 10:34:52.380 -03:00 [INF] requestId: 0HM8QP5GMQN2T:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/connect/{everything}
+2021-05-19 10:34:52.380 -03:00 [INF] requestId: 0HM8QP5GMQN2T:00000001, previousRequestId: no previous request id, message: No authentication needed for /connect/token
+2021-05-19 10:34:52.380 -03:00 [INF] requestId: 0HM8QP5GMQN2T:00000001, previousRequestId: no previous request id, message: /api/connect/{everything} route does not require user to be authorised
+2021-05-19 10:34:54.607 -03:00 [INF] requestId: 0HM8QP5GMQN2T:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/connect/token
+2021-05-19 10:34:54.609 -03:00 [INF] Request: http localhost/connect/token  grant_type=password&client_id=SISGP.Web&scope=SISGP.ProgramaGestao&username=usuario.cg&password=12345678&client_secret=secret
+Request headers:
+Connection:Keep-Alive
+Content-Type:application/x-www-form-urlencoded
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+Referer:http://localhost/app/login
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Origin:http://localhost
+Content-Length:125
+MS-ASPNETCORE-TOKEN:c9b61792-1d74-4416-a114-0a0ba2b56384
+X-Original-Proto:http
+X-Original-For:127.0.0.1:52717
+Response: 200: {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjE0MzEyOTQsImV4cCI6MTYyMTQzNDg5NCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwic3ViIjoiOCIsImF1dGhfdGltZSI6MTYyMTQzMTI5NCwiaWRwIjoibG9jYWwiLCJqdGkiOiI3Mzk0MkQ2MzhERTYzNTEwNkYwQzFFMzIwOEVGRDFFRCIsImlhdCI6MTYyMTQzMTI5NCwic2NvcGUiOlsiU0lTR1AuUHJvZ3JhbWFHZXN0YW8iXSwiYW1yIjpbInBhc3N3b3JkIl19.BvsLvMBlQ_gNjPq6kp0km-wpnzickVZsn6H8YH9-7FdC9fyubzEof9oc0mC-dox0nabq8MFiE1EjMqtWh-uKESHkHnA1VVL3J1Ppq9i6M7wA1pgAkzyL6Ptu_sUS1hI6vy744p_KO0fRgOyO28qaZQFKfv_pdSeDDM-h4LqJouo9-XNlyK_dn17VMzHOP6_8Ev7k9TaTtmrp86dZK_bBo032v1NUSPNLp8jMmwxWr0u7NXTY3Efysccwd11NOlcMVdN3dzZC31asfQ_vPlVoLAjiumOA0o1PzHM_4pgqQ3Zrk6Mrsh0BAX-ggXGqqABop5brrU7DMC6rgynzPHPeUg","expires_in":3600,"token_type":"Bearer","scope":"SISGP.ProgramaGestao"}
+Response headers: 
+Cache-Control:no-store, no-cache, max-age=0
+Date:Wed, 19 May 2021 13:34:54 GMT
+Pragma:no-cache
+Content-Type:application/json; charset=UTF-8
+Server:Kestrel
+Access-Control-Allow-Origin:*
+Content-Length:889
+X-Powered-By:ASP.NET
+
+2021-05-19 10:34:54.610 -03:00 [INF] Request finished in 2249.225ms 200 application/json; charset=UTF-8
+2021-05-19 10:34:54.631 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/pessoa/perfil  
+2021-05-19 10:34:54.668 -03:00 [ERR] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-05-19 10:34:54.691 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-05-19 10:34:54.703 -03:00 [INF] Request finished in 72.1662ms 500 text/plain
+2021-05-19 10:35:05.618 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost/gateway/connect/token application/x-www-form-urlencoded 125
+2021-05-19 10:35:05.620 -03:00 [INF] CORS policy execution successful.
+2021-05-19 10:35:05.623 -03:00 [INF] requestId: 0HM8QP5GMQN2T:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/connect/{everything}
+2021-05-19 10:35:05.624 -03:00 [INF] requestId: 0HM8QP5GMQN2T:00000003, previousRequestId: no previous request id, message: No authentication needed for /connect/token
+2021-05-19 10:35:05.624 -03:00 [INF] requestId: 0HM8QP5GMQN2T:00000003, previousRequestId: no previous request id, message: /api/connect/{everything} route does not require user to be authorised
+2021-05-19 10:35:05.869 -03:00 [INF] requestId: 0HM8QP5GMQN2T:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/connect/token
+2021-05-19 10:35:05.871 -03:00 [INF] Request: http localhost/connect/token  grant_type=password&client_id=SISGP.Web&scope=SISGP.ProgramaGestao&username=usuario.cg&password=12345678&client_secret=secret
+Request headers:
+Connection:Keep-Alive
+Content-Type:application/x-www-form-urlencoded
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+Referer:http://localhost/app/login
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Origin:http://localhost
+Content-Length:125
+MS-ASPNETCORE-TOKEN:c9b61792-1d74-4416-a114-0a0ba2b56384
+X-Original-Proto:http
+X-Original-For:127.0.0.1:52717
+Response: 200: {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjE0MzEzMDUsImV4cCI6MTYyMTQzNDkwNSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwic3ViIjoiOCIsImF1dGhfdGltZSI6MTYyMTQzMTMwNSwiaWRwIjoibG9jYWwiLCJqdGkiOiI4OTAyRDFDNTcyMjgwNDExQTcwNDU1NUMxQTA0ODdENCIsImlhdCI6MTYyMTQzMTMwNSwic2NvcGUiOlsiU0lTR1AuUHJvZ3JhbWFHZXN0YW8iXSwiYW1yIjpbInBhc3N3b3JkIl19.bRRTU7rptXCrQWFA9CttK8YiTnt_C2a0mesKXOI7zrYxJPE8ulIOBWl4IbtAY7v5i_Pm_q6ppDysckO8DkhpMrZXGQhmHV-mr3oDFUi6AcbrD4V0eonKSHqVqj1hkNJgGPypEcr-P88u4rgjsVbq8XUb_3ZUBXzYQwhq1yd5YBtD5SSwtYy0lrY-JKmwGlUFCQaWhQ-s2QV4egjw5S493elLHBQT5e5DORmrKxFdupzjAQRIBlgISPsLbNCncZoJSwaPQh7J-6OhJdDhK7_Er3YDaYEgNfgLWtfo2yIDPezfaMjuzblT16kww48biNbc4W_7pymgyvNU2zo5qfNS3Q","expires_in":3600,"token_type":"Bearer","scope":"SISGP.ProgramaGestao"}
+Response headers: 
+Cache-Control:no-store, no-cache, max-age=0
+Date:Wed, 19 May 2021 13:35:05 GMT
+Pragma:no-cache
+Content-Type:application/json; charset=UTF-8
+Server:Kestrel
+Access-Control-Allow-Origin:*
+Content-Length:889
+X-Powered-By:ASP.NET
+
+2021-05-19 10:35:05.872 -03:00 [INF] Request finished in 253.7467ms 200 application/json; charset=UTF-8
+2021-05-19 10:35:05.893 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/pessoa/perfil  
+2021-05-19 10:35:05.896 -03:00 [ERR] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-05-19 10:35:05.897 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-05-19 10:35:05.898 -03:00 [INF] Request finished in 4.854ms 500 text/plain
+2021-05-19 10:56:03.145 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:39290/GATEWAY/iisintegration  0
+2021-05-19 10:56:03.145 -03:00 [INF] Request finished in 0.9368ms 202 
+2021-05-19 15:01:22.523 -03:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1878738545-2699076131-2710155362-3366582735-887525985\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-19 15:01:22.882 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-19 15:01:22.914 -03:00 [WRN] Failed to determine the https port for redirect.
+2021-05-19 15:01:23.275 -03:00 [INF] requestId: 0HM8QU0EDSSPB:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v1/dominio/ModalidadeExecucao
+2021-05-19 15:01:23.277 -03:00 [INF] requestId: 0HM8QU0EDSSPB:00000001, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-19 15:01:23.280 -03:00 [INF] requestId: 0HM8QU0EDSSPB:00000001, previousRequestId: no previous request id, message: /api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-19 15:01:23.395 -03:00 [WRN] requestId: 0HM8QU0EDSSPB:00000001, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://localhost/api/v1/dominio/ModalidadeExecucao
+2021-05-19 15:01:23.429 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:3666b10a-c0db-4d35-a72d-72369d3d573a
+X-Original-Proto:http
+X-Original-For:127.0.0.1:50936
+Response: 404: 
+Response headers: 
+Date:Wed, 19 May 2021 18:01:23 GMT
+Server:Kestrel
+Content-Length:0
+X-Powered-By:ASP.NET
+
+2021-05-19 15:01:23.435 -03:00 [INF] Request finished in 557.2492ms 404 
+2021-05-19 15:02:03.373 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-19 15:02:03.376 -03:00 [INF] requestId: 0HM8QU0EDSSPB:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v1/dominio/ModalidadeExecucao
+2021-05-19 15:02:03.376 -03:00 [INF] requestId: 0HM8QU0EDSSPB:00000002, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-19 15:02:03.376 -03:00 [INF] requestId: 0HM8QU0EDSSPB:00000002, previousRequestId: no previous request id, message: /api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-19 15:02:03.382 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:3666b10a-c0db-4d35-a72d-72369d3d573a
+X-Original-Proto:http
+X-Original-For:127.0.0.1:50936
+Response: 404: 
+Response headers: 
+Date:Wed, 19 May 2021 18:01:23 GMT
+Server:Kestrel
+Content-Length:0
+X-Powered-By:ASP.NET
+
+2021-05-19 15:02:03.383 -03:00 [INF] Request finished in 9.8974ms 404 
+2021-05-19 15:06:53.652 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost/gateway/connect/token application/x-www-form-urlencoded 97
+2021-05-19 15:06:53.657 -03:00 [INF] CORS policy execution successful.
+2021-05-19 15:06:53.829 -03:00 [INF] requestId: 0HM8QU0EDSSPC:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/connect/{everything}
+2021-05-19 15:06:53.829 -03:00 [INF] requestId: 0HM8QU0EDSSPC:00000001, previousRequestId: no previous request id, message: No authentication needed for /connect/token
+2021-05-19 15:06:53.829 -03:00 [INF] requestId: 0HM8QU0EDSSPC:00000001, previousRequestId: no previous request id, message: /api/connect/{everything} route does not require user to be authorised
+2021-05-19 15:06:54.469 -03:00 [INF] requestId: 0HM8QU0EDSSPC:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/connect/token
+2021-05-19 15:06:54.471 -03:00 [INF] Request: http localhost/connect/token  grant_type=client_credentials&client_id=SISGP.Web&scope=SISGP.ProgramaGestao&client_secret=secret
+Request headers:
+Connection:Keep-Alive
+Content-Type:application/x-www-form-urlencoded
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+Referer:http://localhost/app
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Origin:http://localhost
+Content-Length:97
+MS-ASPNETCORE-TOKEN:3666b10a-c0db-4d35-a72d-72369d3d573a
+X-Original-Proto:http
+X-Original-For:127.0.0.1:50997
+Response: 200: {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjE0NDc2MTQsImV4cCI6MTYyMTQ1MTIxNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwianRpIjoiQTE1QzFEMEVBNUQwRDYyQjNENjU0MTIwREE5M0NCQkQiLCJpYXQiOjE2MjE0NDc2MTQsInNjb3BlIjpbIlNJU0dQLlByb2dyYW1hR2VzdGFvIl19.PO5mJwb195F6ofUv2xNxOu4_nuU-SJDFrDsPEj6nnyuX14JN_-n6XSRsuDeGpT-ID1MzKO_GkPfKUVVjjwLZvHg-4qu4jA-GdD8TPvcQIWokPWIgo5T8wX7OjDgPrKo6qaCbH3g9TvmdbXMD8q9a98iWVujpfjI-3KrENw0zxvYHOWg5fKYRDFJ6tCONxc42c3E9gdYFWeeRF6OOR69z2WVIhORPa6guCOLUPRQmn01xyqevHsxXIRUsxdsrnJMWIur3DITFpVoL_iVZHh8e7u-Dsbh49e11HSwV91mzRv0XSt__F5oW_Nns9rNmKDY84VJcPx4-gvd6bbuFo54veg","expires_in":3600,"token_type":"Bearer","scope":"SISGP.ProgramaGestao"}
+Response headers: 
+Cache-Control:no-store, no-cache, max-age=0
+Date:Wed, 19 May 2021 18:06:53 GMT
+Pragma:no-cache
+Content-Type:application/json; charset=UTF-8
+Server:Kestrel
+Access-Control-Allow-Origin:*
+Content-Length:801
+X-Powered-By:ASP.NET
+
+2021-05-19 15:06:54.473 -03:00 [INF] Request finished in 820.7533ms 200 application/json; charset=UTF-8
+2021-05-19 15:13:36.533 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-19 15:13:36.538 -03:00 [INF] requestId: 0HM8QU0EDSSPD:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v1/dominio/ModalidadeExecucao
+2021-05-19 15:13:36.538 -03:00 [INF] requestId: 0HM8QU0EDSSPD:00000001, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-19 15:13:36.539 -03:00 [INF] requestId: 0HM8QU0EDSSPD:00000001, previousRequestId: no previous request id, message: /api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-19 15:13:36.540 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:3666b10a-c0db-4d35-a72d-72369d3d573a
+X-Original-Proto:http
+X-Original-For:127.0.0.1:51062
+Response: 404: 
+Response headers: 
+Date:Wed, 19 May 2021 18:01:23 GMT
+Server:Kestrel
+Content-Length:0
+X-Powered-By:ASP.NET
+
+2021-05-19 15:13:36.541 -03:00 [INF] Request finished in 8.0637ms 404 
+2021-05-19 15:14:15.285 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-19 15:14:15.288 -03:00 [INF] requestId: 0HM8QU0EDSSPD:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v1/dominio/ModalidadeExecucao
+2021-05-19 15:14:15.288 -03:00 [INF] requestId: 0HM8QU0EDSSPD:00000002, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-19 15:14:15.288 -03:00 [INF] requestId: 0HM8QU0EDSSPD:00000002, previousRequestId: no previous request id, message: /api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-19 15:14:15.289 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:3666b10a-c0db-4d35-a72d-72369d3d573a
+X-Original-Proto:http
+X-Original-For:127.0.0.1:51062
+Response: 404: 
+Response headers: 
+Date:Wed, 19 May 2021 18:01:23 GMT
+Server:Kestrel
+Content-Length:0
+X-Powered-By:ASP.NET
+
+2021-05-19 15:14:15.289 -03:00 [INF] Request finished in 4.6145ms 404 
+2021-05-19 15:14:51.474 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-19 15:14:51.476 -03:00 [INF] requestId: 0HM8QU0EDSSPD:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v1/dominio/ModalidadeExecucao
+2021-05-19 15:14:51.477 -03:00 [INF] requestId: 0HM8QU0EDSSPD:00000003, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-19 15:14:51.477 -03:00 [INF] requestId: 0HM8QU0EDSSPD:00000003, previousRequestId: no previous request id, message: /api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-19 15:14:51.478 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:3666b10a-c0db-4d35-a72d-72369d3d573a
+X-Original-Proto:http
+X-Original-For:127.0.0.1:51062
+Response: 404: 
+Response headers: 
+Date:Wed, 19 May 2021 18:01:23 GMT
+Server:Kestrel
+Content-Length:0
+X-Powered-By:ASP.NET
+
+2021-05-19 15:14:51.478 -03:00 [INF] Request finished in 4.524ms 404 
+2021-05-19 15:23:16.953 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:34753/GATEWAY/iisintegration  0
+2021-05-19 15:23:16.955 -03:00 [INF] Request finished in 1.6605ms 202 

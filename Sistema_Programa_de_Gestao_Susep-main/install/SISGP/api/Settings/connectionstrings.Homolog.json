@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "data source=vm-sispg\\SQLEXPRESS;initial catalog=sisgp;User ID=sisgp_con;Password=12345678;"
+  }
+}

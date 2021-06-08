@@ -1,0 +1,1301 @@
+2021-05-20 11:50:41.848 -03:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1878738545-2699076131-2710155362-3366582735-887525985\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-20 11:50:42.260 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost/gateway/connect/token application/x-www-form-urlencoded 97
+2021-05-20 11:50:42.286 -03:00 [INF] CORS policy execution successful.
+2021-05-20 11:50:42.287 -03:00 [WRN] Failed to determine the https port for redirect.
+2021-05-20 11:50:42.637 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/connect/{everything}
+2021-05-20 11:50:42.640 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000001, previousRequestId: no previous request id, message: No authentication needed for /connect/token
+2021-05-20 11:50:42.645 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000001, previousRequestId: no previous request id, message: /api/connect/{everything} route does not require user to be authorised
+2021-05-20 11:50:44.994 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/connect/token
+2021-05-20 11:50:45.020 -03:00 [INF] Request: http localhost/connect/token  grant_type=client_credentials&client_id=SISGP.Web&scope=SISGP.ProgramaGestao&client_secret=secret
+Request headers:
+Connection:Keep-Alive
+Content-Type:application/x-www-form-urlencoded
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+Referer:http://localhost/app
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Origin:http://localhost
+Content-Length:97
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61342
+Response: 200: {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjE1MjIyNDQsImV4cCI6MTYyMTUyNTg0NCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwianRpIjoiRjE0QkEyRDA3QkM4RUU1MUYwOUY4QTY2MTgyQzFDMkMiLCJpYXQiOjE2MjE1MjIyNDQsInNjb3BlIjpbIlNJU0dQLlByb2dyYW1hR2VzdGFvIl19.Br-4H5UI-xFXzxniXfXqhL9olFi5T9XtnMvZJ-bhQFTCAIGDuAk8V-7wkYH63cW2FlGUDjTFBSP7MtfxEUOFliyoIDx5byo_I1zwpmEvuprxaWn689U-1ks1YXS9EfIfBlwZn3WfAD4e2TFIEdyQHkSHOET0wte7qxHpuyiv7y-W3k2PploDUflSvfKAx4w76E8hsxNo2L3GuGQXBpbtGWLaxUHtTXnkVy8nnqR1S4pymo9lq2BTB9cITWCtCa9Fdge3CZ_p1fm63ME7G1TJMqStAGUNk1OJRAGGtEzFP4T_7JWE_QBGIUDRoN2awiBnr669sSvT3pMe6BHWlBmQPw","expires_in":3600,"token_type":"Bearer","scope":"SISGP.ProgramaGestao"}
+Response headers: 
+Cache-Control:no-store, no-cache, max-age=0
+Date:Thu, 20 May 2021 14:50:44 GMT
+Pragma:no-cache
+Content-Type:application/json; charset=UTF-8
+Server:Kestrel
+Access-Control-Allow-Origin:*
+Content-Length:801
+X-Powered-By:ASP.NET
+
+2021-05-20 11:50:45.027 -03:00 [INF] Request finished in 2769.49ms 200 application/json; charset=UTF-8
+2021-05-20 11:50:54.411 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost/gateway/connect/token application/x-www-form-urlencoded 125
+2021-05-20 11:50:54.412 -03:00 [INF] CORS policy execution successful.
+2021-05-20 11:50:54.415 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/connect/{everything}
+2021-05-20 11:50:54.415 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000002, previousRequestId: no previous request id, message: No authentication needed for /connect/token
+2021-05-20 11:50:54.415 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000002, previousRequestId: no previous request id, message: /api/connect/{everything} route does not require user to be authorised
+2021-05-20 11:50:56.609 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/connect/token
+2021-05-20 11:50:56.611 -03:00 [INF] Request: http localhost/connect/token  grant_type=password&client_id=SISGP.Web&scope=SISGP.ProgramaGestao&username=usuario.cg&password=12345678&client_secret=secret
+Request headers:
+Connection:Keep-Alive
+Content-Type:application/x-www-form-urlencoded
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+Referer:http://localhost/app/login
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Origin:http://localhost
+Content-Length:125
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61342
+Response: 200: {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjE1MjIyNTYsImV4cCI6MTYyMTUyNTg1NiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwic3ViIjoiOCIsImF1dGhfdGltZSI6MTYyMTUyMjI1NiwiaWRwIjoibG9jYWwiLCJqdGkiOiJEMEYxNzBEMDFDMUU5ODFBRTREREEwRDI5MzY0MzUwRSIsImlhdCI6MTYyMTUyMjI1Niwic2NvcGUiOlsiU0lTR1AuUHJvZ3JhbWFHZXN0YW8iXSwiYW1yIjpbInBhc3N3b3JkIl19.km-GpPdD2RgaRZY3QtoLdC7WZ3MsFbdBQLjDVSkW-CrZgMyqKPt9hRtZreLaVWFBhXGagFqCjWpIomh5vdQxcEtz50MNcng1IwtdAIgH2bqEMJmF88AHvKV7vERNW_leqr49X-3zMIgRGyNJpqBLoqxrC---sNuOt-PI7vKud4venvWi6IBcWHDpgGZuf9OQZHJFHGrKBpUTCZBYguYB9nUKnY8r_IzR43y2mKsD2tt3zwy-HZp1_xVbnpnwuJ9LwHfz_20Jx2P2c2Dt0YwEuzQpfuEG4TcH4JGbYHt98Jjl93LFOZdOP7mrTZVt03rdIBAAprN0LDnQfHJfuYTuew","expires_in":3600,"token_type":"Bearer","scope":"SISGP.ProgramaGestao"}
+Response headers: 
+Cache-Control:no-store, no-cache, max-age=0
+Date:Thu, 20 May 2021 14:50:56 GMT
+Pragma:no-cache
+Content-Type:application/json; charset=UTF-8
+Server:Kestrel
+Access-Control-Allow-Origin:*
+Content-Length:889
+X-Powered-By:ASP.NET
+
+2021-05-20 11:50:56.612 -03:00 [INF] Request finished in 2199.9958ms 200 application/json; charset=UTF-8
+2021-05-20 11:50:56.633 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/pessoa/perfil  
+2021-05-20 11:51:00.717 -03:00 [ERR] Exception occurred while processing message.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-05-20 11:51:00.747 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20804: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-05-20 11:51:00.766 -03:00 [INF] Request finished in 4133.3887ms 500 text/plain
+2021-05-20 11:51:32.161 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-20 11:51:32.340 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000004, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-20 11:51:32.340 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000004, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-20 11:51:32.341 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000004, previousRequestId: no previous request id, message: /SISGP/api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-20 11:51:32.360 -03:00 [WRN] requestId: 0HM8RJQI27GO7:00000004, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://localhost/SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-20 11:51:32.373 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61342
+Response: 404: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 Detailed Error - 404.0 - Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP Error 404.0 - Not Found</h3> 
+  <h4>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Most likely causes:</h4> 
+  <ul> 	<li>The directory or file specified does not exist on the Web server.</li> 	<li>The URL contains a typographical error.</li> 	<li>A custom filter or module, such as URLScan, restricts access to the file.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Things you can try:</h4> 
+  <ul> 	<li>Create the content on the Web server.</li> 	<li>Review the browser URL.</li> 	<li>Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Detailed Error Information:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Module</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Notification</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Handler</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Error Code</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Requested URL</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/SISGP/api/api/v1/dominio/ModalidadeExecucao</td></tr> 
+    <tr><th>Physical Path</th><td>&nbsp;&nbsp;&nbsp;C:\Sistema_Programa_de_Gestao_Susep-main\install\SISGP\SISGP\api\api\v1\dominio\ModalidadeExecucao</td></tr> 
+    <tr class="alt"><th>Logon Method</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+    <tr><th>Logon User</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>More Information:</h4> 
+  This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,19041">View more information &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+Response headers: 
+Cache-Control:private
+Date:Thu, 20 May 2021 14:51:32 GMT
+Content-Type:text/html; charset=utf-8
+Server:Microsoft-IIS/10.0
+Content-Length:4942
+X-Powered-By:ASP.NET
+
+2021-05-20 11:51:32.374 -03:00 [INF] Request finished in 212.9788ms 404 text/html; charset=utf-8
+2021-05-20 11:51:41.746 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-20 11:51:41.751 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000005, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-20 11:51:41.751 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000005, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-20 11:51:41.751 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000005, previousRequestId: no previous request id, message: /SISGP/api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-20 11:51:41.758 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61342
+Response: 404: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 Detailed Error - 404.0 - Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP Error 404.0 - Not Found</h3> 
+  <h4>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Most likely causes:</h4> 
+  <ul> 	<li>The directory or file specified does not exist on the Web server.</li> 	<li>The URL contains a typographical error.</li> 	<li>A custom filter or module, such as URLScan, restricts access to the file.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Things you can try:</h4> 
+  <ul> 	<li>Create the content on the Web server.</li> 	<li>Review the browser URL.</li> 	<li>Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Detailed Error Information:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Module</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Notification</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Handler</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Error Code</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Requested URL</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/SISGP/api/api/v1/dominio/ModalidadeExecucao</td></tr> 
+    <tr><th>Physical Path</th><td>&nbsp;&nbsp;&nbsp;C:\Sistema_Programa_de_Gestao_Susep-main\install\SISGP\SISGP\api\api\v1\dominio\ModalidadeExecucao</td></tr> 
+    <tr class="alt"><th>Logon Method</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+    <tr><th>Logon User</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>More Information:</h4> 
+  This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,19041">View more information &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+Response headers: 
+Cache-Control:private
+Date:Thu, 20 May 2021 14:51:32 GMT
+Content-Type:text/html; charset=utf-8
+Server:Microsoft-IIS/10.0
+Content-Length:4942
+X-Powered-By:ASP.NET
+
+2021-05-20 11:51:41.758 -03:00 [INF] Request finished in 12.0761ms 404 text/html; charset=utf-8
+2021-05-20 11:52:28.406 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-20 11:52:28.612 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000006, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-20 11:52:28.612 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000006, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-20 11:52:28.612 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000006, previousRequestId: no previous request id, message: /SISGP/api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-20 11:52:28.614 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61342
+Response: 404: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 Detailed Error - 404.0 - Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP Error 404.0 - Not Found</h3> 
+  <h4>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Most likely causes:</h4> 
+  <ul> 	<li>The directory or file specified does not exist on the Web server.</li> 	<li>The URL contains a typographical error.</li> 	<li>A custom filter or module, such as URLScan, restricts access to the file.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Things you can try:</h4> 
+  <ul> 	<li>Create the content on the Web server.</li> 	<li>Review the browser URL.</li> 	<li>Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Detailed Error Information:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Module</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Notification</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Handler</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Error Code</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Requested URL</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/SISGP/api/api/v1/dominio/ModalidadeExecucao</td></tr> 
+    <tr><th>Physical Path</th><td>&nbsp;&nbsp;&nbsp;C:\Sistema_Programa_de_Gestao_Susep-main\install\SISGP\SISGP\api\api\v1\dominio\ModalidadeExecucao</td></tr> 
+    <tr class="alt"><th>Logon Method</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+    <tr><th>Logon User</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>More Information:</h4> 
+  This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,19041">View more information &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+Response headers: 
+Cache-Control:private
+Date:Thu, 20 May 2021 14:51:32 GMT
+Content-Type:text/html; charset=utf-8
+Server:Microsoft-IIS/10.0
+Content-Length:4942
+X-Powered-By:ASP.NET
+
+2021-05-20 11:52:28.624 -03:00 [INF] Request finished in 216.1971ms 404 text/html; charset=utf-8
+2021-05-20 11:52:30.591 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-20 11:52:30.596 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000007, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-20 11:52:30.596 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000007, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-20 11:52:30.597 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000007, previousRequestId: no previous request id, message: /SISGP/api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-20 11:52:30.599 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61342
+Response: 404: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 Detailed Error - 404.0 - Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP Error 404.0 - Not Found</h3> 
+  <h4>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Most likely causes:</h4> 
+  <ul> 	<li>The directory or file specified does not exist on the Web server.</li> 	<li>The URL contains a typographical error.</li> 	<li>A custom filter or module, such as URLScan, restricts access to the file.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Things you can try:</h4> 
+  <ul> 	<li>Create the content on the Web server.</li> 	<li>Review the browser URL.</li> 	<li>Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Detailed Error Information:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Module</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Notification</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Handler</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Error Code</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Requested URL</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/SISGP/api/api/v1/dominio/ModalidadeExecucao</td></tr> 
+    <tr><th>Physical Path</th><td>&nbsp;&nbsp;&nbsp;C:\Sistema_Programa_de_Gestao_Susep-main\install\SISGP\SISGP\api\api\v1\dominio\ModalidadeExecucao</td></tr> 
+    <tr class="alt"><th>Logon Method</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+    <tr><th>Logon User</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>More Information:</h4> 
+  This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,19041">View more information &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+Response headers: 
+Cache-Control:private
+Date:Thu, 20 May 2021 14:51:32 GMT
+Content-Type:text/html; charset=utf-8
+Server:Microsoft-IIS/10.0
+Content-Length:4942
+X-Powered-By:ASP.NET
+
+2021-05-20 11:52:30.600 -03:00 [INF] Request finished in 8.6204ms 404 text/html; charset=utf-8
+2021-05-20 11:52:41.476 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-20 11:52:41.478 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000008, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-20 11:52:41.478 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000008, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-20 11:52:41.478 -03:00 [INF] requestId: 0HM8RJQI27GO7:00000008, previousRequestId: no previous request id, message: /SISGP/api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-20 11:52:41.480 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Cache-Control:no-cache
+Connection:Keep-Alive
+Pragma:no-cache
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61342
+Response: 404: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 Detailed Error - 404.0 - Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP Error 404.0 - Not Found</h3> 
+  <h4>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Most likely causes:</h4> 
+  <ul> 	<li>The directory or file specified does not exist on the Web server.</li> 	<li>The URL contains a typographical error.</li> 	<li>A custom filter or module, such as URLScan, restricts access to the file.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Things you can try:</h4> 
+  <ul> 	<li>Create the content on the Web server.</li> 	<li>Review the browser URL.</li> 	<li>Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Detailed Error Information:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Module</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Notification</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Handler</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Error Code</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Requested URL</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/SISGP/api/api/v1/dominio/ModalidadeExecucao</td></tr> 
+    <tr><th>Physical Path</th><td>&nbsp;&nbsp;&nbsp;C:\Sistema_Programa_de_Gestao_Susep-main\install\SISGP\SISGP\api\api\v1\dominio\ModalidadeExecucao</td></tr> 
+    <tr class="alt"><th>Logon Method</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+    <tr><th>Logon User</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>More Information:</h4> 
+  This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,19041">View more information &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+Response headers: 
+Cache-Control:private
+Date:Thu, 20 May 2021 14:51:32 GMT
+Content-Type:text/html; charset=utf-8
+Server:Microsoft-IIS/10.0
+Content-Length:4942
+X-Powered-By:ASP.NET
+
+2021-05-20 11:52:41.480 -03:00 [INF] Request finished in 4.4723ms 404 text/html; charset=utf-8
+2021-05-20 11:53:42.741 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-20 11:53:42.927 -03:00 [INF] requestId: 0HM8RJQI27GO8:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-20 11:53:42.927 -03:00 [INF] requestId: 0HM8RJQI27GO8:00000001, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-20 11:53:42.927 -03:00 [INF] requestId: 0HM8RJQI27GO8:00000001, previousRequestId: no previous request id, message: /SISGP/api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-20 11:53:42.929 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Cache-Control:no-cache
+Connection:Keep-Alive
+Pragma:no-cache
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61394
+Response: 404: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 Detailed Error - 404.0 - Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP Error 404.0 - Not Found</h3> 
+  <h4>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Most likely causes:</h4> 
+  <ul> 	<li>The directory or file specified does not exist on the Web server.</li> 	<li>The URL contains a typographical error.</li> 	<li>A custom filter or module, such as URLScan, restricts access to the file.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Things you can try:</h4> 
+  <ul> 	<li>Create the content on the Web server.</li> 	<li>Review the browser URL.</li> 	<li>Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Detailed Error Information:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Module</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Notification</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Handler</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Error Code</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Requested URL</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/SISGP/api/api/v1/dominio/ModalidadeExecucao</td></tr> 
+    <tr><th>Physical Path</th><td>&nbsp;&nbsp;&nbsp;C:\Sistema_Programa_de_Gestao_Susep-main\install\SISGP\SISGP\api\api\v1\dominio\ModalidadeExecucao</td></tr> 
+    <tr class="alt"><th>Logon Method</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+    <tr><th>Logon User</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>More Information:</h4> 
+  This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,19041">View more information &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+Response headers: 
+Cache-Control:private
+Date:Thu, 20 May 2021 14:51:32 GMT
+Content-Type:text/html; charset=utf-8
+Server:Microsoft-IIS/10.0
+Content-Length:4942
+X-Powered-By:ASP.NET
+
+2021-05-20 11:53:42.929 -03:00 [INF] Request finished in 187.8231ms 404 text/html; charset=utf-8
+2021-05-20 11:53:47.254 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-20 11:53:47.256 -03:00 [INF] requestId: 0HM8RJQI27GO8:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-20 11:53:47.257 -03:00 [INF] requestId: 0HM8RJQI27GO8:00000002, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-20 11:53:47.257 -03:00 [INF] requestId: 0HM8RJQI27GO8:00000002, previousRequestId: no previous request id, message: /SISGP/api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-20 11:53:47.259 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Cache-Control:max-age=0
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61394
+Response: 404: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 Detailed Error - 404.0 - Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP Error 404.0 - Not Found</h3> 
+  <h4>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Most likely causes:</h4> 
+  <ul> 	<li>The directory or file specified does not exist on the Web server.</li> 	<li>The URL contains a typographical error.</li> 	<li>A custom filter or module, such as URLScan, restricts access to the file.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Things you can try:</h4> 
+  <ul> 	<li>Create the content on the Web server.</li> 	<li>Review the browser URL.</li> 	<li>Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Detailed Error Information:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Module</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Notification</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Handler</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Error Code</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Requested URL</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/SISGP/api/api/v1/dominio/ModalidadeExecucao</td></tr> 
+    <tr><th>Physical Path</th><td>&nbsp;&nbsp;&nbsp;C:\Sistema_Programa_de_Gestao_Susep-main\install\SISGP\SISGP\api\api\v1\dominio\ModalidadeExecucao</td></tr> 
+    <tr class="alt"><th>Logon Method</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+    <tr><th>Logon User</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>More Information:</h4> 
+  This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,19041">View more information &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+Response headers: 
+Cache-Control:private
+Date:Thu, 20 May 2021 14:51:32 GMT
+Content-Type:text/html; charset=utf-8
+Server:Microsoft-IIS/10.0
+Content-Length:4942
+X-Powered-By:ASP.NET
+
+2021-05-20 11:53:47.260 -03:00 [INF] Request finished in 5.8727ms 404 text/html; charset=utf-8
+2021-05-20 11:55:53.366 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/api/dominio/ModalidadeExecucao  
+2021-05-20 11:55:53.368 -03:00 [WRN] requestId: 0HM8RJQI27GO9:00000001, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /api/dominio/ModalidadeExecucao, verb: GET.
+2021-05-20 11:55:53.369 -03:00 [WRN] requestId: 0HM8RJQI27GO9:00000001, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: /api/dominio/ModalidadeExecucao, verb: GET.
+2021-05-20 11:55:53.369 -03:00 [WRN] requestId: 0HM8RJQI27GO9:00000001, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /api/dominio/ModalidadeExecucao, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/api/dominio/ModalidadeExecucao, request method: GET
+2021-05-20 11:55:53.370 -03:00 [INF] Request: http localhost/api/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61419
+Response: 404: 
+Response headers: 
+
+2021-05-20 11:55:53.371 -03:00 [INF] Request finished in 5.2423ms 404 
+2021-05-20 11:56:01.344 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/api/v1/dominio/ModalidadeExecucao  
+2021-05-20 11:56:01.346 -03:00 [WRN] requestId: 0HM8RJQI27GO9:00000002, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /api/v1/dominio/ModalidadeExecucao, verb: GET.
+2021-05-20 11:56:01.346 -03:00 [WRN] requestId: 0HM8RJQI27GO9:00000002, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: /api/v1/dominio/ModalidadeExecucao, verb: GET.
+2021-05-20 11:56:01.346 -03:00 [WRN] requestId: 0HM8RJQI27GO9:00000002, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /api/v1/dominio/ModalidadeExecucao, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/api/v1/dominio/ModalidadeExecucao, request method: GET
+2021-05-20 11:56:01.346 -03:00 [INF] Request: http localhost/api/v1/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61419
+Response: 404: 
+Response headers: 
+
+2021-05-20 11:56:01.347 -03:00 [INF] Request finished in 2.2268ms 404 
+2021-05-20 11:58:51.452 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-20 11:58:51.454 -03:00 [INF] requestId: 0HM8RJQI27GOA:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-20 11:58:51.454 -03:00 [INF] requestId: 0HM8RJQI27GOA:00000001, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-20 11:58:51.454 -03:00 [INF] requestId: 0HM8RJQI27GOA:00000001, previousRequestId: no previous request id, message: /SISGP/api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-20 11:58:51.455 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61447
+Response: 404: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 Detailed Error - 404.0 - Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP Error 404.0 - Not Found</h3> 
+  <h4>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Most likely causes:</h4> 
+  <ul> 	<li>The directory or file specified does not exist on the Web server.</li> 	<li>The URL contains a typographical error.</li> 	<li>A custom filter or module, such as URLScan, restricts access to the file.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Things you can try:</h4> 
+  <ul> 	<li>Create the content on the Web server.</li> 	<li>Review the browser URL.</li> 	<li>Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Detailed Error Information:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Module</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Notification</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Handler</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Error Code</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Requested URL</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/SISGP/api/api/v1/dominio/ModalidadeExecucao</td></tr> 
+    <tr><th>Physical Path</th><td>&nbsp;&nbsp;&nbsp;C:\Sistema_Programa_de_Gestao_Susep-main\install\SISGP\SISGP\api\api\v1\dominio\ModalidadeExecucao</td></tr> 
+    <tr class="alt"><th>Logon Method</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+    <tr><th>Logon User</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>More Information:</h4> 
+  This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,19041">View more information &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+Response headers: 
+Cache-Control:private
+Date:Thu, 20 May 2021 14:51:32 GMT
+Content-Type:text/html; charset=utf-8
+Server:Microsoft-IIS/10.0
+Content-Length:4942
+X-Powered-By:ASP.NET
+
+2021-05-20 11:58:51.456 -03:00 [INF] Request finished in 4.2871ms 404 text/html; charset=utf-8
+2021-05-20 11:58:59.527 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-20 11:58:59.528 -03:00 [INF] requestId: 0HM8RJQI27GOA:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-20 11:58:59.528 -03:00 [INF] requestId: 0HM8RJQI27GOA:00000002, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-20 11:58:59.528 -03:00 [INF] requestId: 0HM8RJQI27GOA:00000002, previousRequestId: no previous request id, message: /SISGP/api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-20 11:58:59.530 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+DNT:1
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:b7923673-0d0d-4f8a-bb35-a7d4f6e17373
+X-Original-Proto:http
+X-Original-For:127.0.0.1:61447
+Response: 404: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 Detailed Error - 404.0 - Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP Error 404.0 - Not Found</h3> 
+  <h4>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Most likely causes:</h4> 
+  <ul> 	<li>The directory or file specified does not exist on the Web server.</li> 	<li>The URL contains a typographical error.</li> 	<li>A custom filter or module, such as URLScan, restricts access to the file.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Things you can try:</h4> 
+  <ul> 	<li>Create the content on the Web server.</li> 	<li>Review the browser URL.</li> 	<li>Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Detailed Error Information:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Module</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Notification</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Handler</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Error Code</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Requested URL</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/SISGP/api/api/v1/dominio/ModalidadeExecucao</td></tr> 
+    <tr><th>Physical Path</th><td>&nbsp;&nbsp;&nbsp;C:\Sistema_Programa_de_Gestao_Susep-main\install\SISGP\SISGP\api\api\v1\dominio\ModalidadeExecucao</td></tr> 
+    <tr class="alt"><th>Logon Method</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+    <tr><th>Logon User</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>More Information:</h4> 
+  This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,19041">View more information &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+Response headers: 
+Cache-Control:private
+Date:Thu, 20 May 2021 14:51:32 GMT
+Content-Type:text/html; charset=utf-8
+Server:Microsoft-IIS/10.0
+Content-Length:4942
+X-Powered-By:ASP.NET
+
+2021-05-20 11:58:59.530 -03:00 [INF] Request finished in 3.1801ms 404 text/html; charset=utf-8
+2021-05-20 12:19:37.580 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:19739/GATEWAY/iisintegration  0
+2021-05-20 12:19:37.580 -03:00 [INF] Request finished in 0.5804ms 202 

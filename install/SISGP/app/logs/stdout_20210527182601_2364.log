@@ -1,0 +1,12 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Now listening on: http://127.0.0.1:9502
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Sistema_Programa_de_Gestao_Susep-main\install\SISGP\app
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

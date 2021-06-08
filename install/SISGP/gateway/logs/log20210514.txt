@@ -1,0 +1,200 @@
+2021-05-14 12:42:06.301 -03:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1878738545-2699076131-2710155362-3366582735-887525985\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-14 12:42:06.738 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway  
+2021-05-14 12:42:06.762 -03:00 [WRN] Failed to determine the https port for redirect.
+2021-05-14 12:42:07.179 -03:00 [WRN] requestId: 0HM8MTRA2DR99:00000001, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: , verb: GET.
+2021-05-14 12:42:07.180 -03:00 [WRN] requestId: 0HM8MTRA2DR99:00000001, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: , verb: GET.
+2021-05-14 12:42:07.181 -03:00 [WRN] requestId: 0HM8MTRA2DR99:00000001, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: , verb: GET. errors found in ResponderMiddleware. Setting error response for request path:, request method: GET
+2021-05-14 12:42:07.184 -03:00 [INF] Request: http localhost  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:2d7a3877-40d5-41bb-b914-fb19f7a204c9
+X-Original-Proto:http
+X-Original-For:127.0.0.1:53581
+Response: 404: 
+Response headers: 
+
+2021-05-14 12:42:07.187 -03:00 [INF] Request finished in 452.4988ms 404 
+2021-05-14 12:42:32.745 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-14 12:42:32.796 -03:00 [INF] requestId: 0HM8MTRA2DR99:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-14 12:42:32.799 -03:00 [INF] requestId: 0HM8MTRA2DR99:00000002, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-14 12:42:32.801 -03:00 [INF] requestId: 0HM8MTRA2DR99:00000002, previousRequestId: no previous request id, message: /SISGP/api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-14 12:42:32.948 -03:00 [WRN] requestId: 0HM8MTRA2DR99:00000002, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://localhost/SISGP/api/api/v1/dominio/ModalidadeExecucao
+2021-05-14 12:42:32.988 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:2d7a3877-40d5-41bb-b914-fb19f7a204c9
+X-Original-Proto:http
+X-Original-For:127.0.0.1:53581
+Response: 404: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>IIS 10.0 Detailed Error - 404.0 - Not Found</title> 
+<style type="text/css"> 
+<!-- 
+body{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;} 
+code{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} 
+.config_source code{font-size:.8em;color:#000000;} 
+pre{margin:0;font-size:1.4em;word-wrap:break-word;} 
+ul,ol{margin:10px 0 10px 5px;} 
+ul.first,ol.first{margin-top:5px;} 
+fieldset{padding:0 15px 10px 15px;word-break:break-all;} 
+.summary-container fieldset{padding-bottom:5px;margin-top:4px;} 
+legend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} 
+legend{color:#333333;;margin:4px 0 8px -12px;_margin-top:0px; 
+font-weight:bold;font-size:1em;} 
+a:link,a:visited{color:#007EFF;font-weight:bold;} 
+a:hover{text-decoration:none;} 
+h1{font-size:2.4em;margin:0;color:#FFF;} 
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} 
+h4{font-size:1.2em;margin:10px 0 5px 0; 
+}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS",Verdana,sans-serif; 
+ color:#FFF;background-color:#5C87B2; 
+}#content{margin:0 0 0 2%;position:relative;} 
+.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} 
+.content-container p{margin:0 0 10px 0; 
+}#details-left{width:35%;float:left;margin-right:2%; 
+}#details-right{width:63%;float:left;overflow:hidden; 
+}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; 
+ background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; 
+ font-size:1em;color:#FFF;text-align:right; 
+}#server_version p{margin:5px 0;} 
+table{margin:4px 0 4px 0;width:100%;border:none;} 
+td,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:normal;border:none;} 
+th{width:30%;text-align:right;padding-right:2%;font-weight:bold;} 
+thead th{background-color:#ebebeb;width:25%; 
+}#details-right th{width:20%;} 
+table tr.alt td,table tr.alt th{} 
+.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} 
+.clear{clear:both;} 
+.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} 
+--> 
+</style> 
+ 
+</head> 
+<body> 
+<div id="content"> 
+<div class="content-container"> 
+  <h3>HTTP Error 404.0 - Not Found</h3> 
+  <h4>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</h4> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Most likely causes:</h4> 
+  <ul> 	<li>The directory or file specified does not exist on the Web server.</li> 	<li>The URL contains a typographical error.</li> 	<li>A custom filter or module, such as URLScan, restricts access to the file.</li> </ul> 
+ </fieldset> 
+</div> 
+<div class="content-container"> 
+ <fieldset><h4>Things you can try:</h4> 
+  <ul> 	<li>Create the content on the Web server.</li> 	<li>Review the browser URL.</li> 	<li>Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>Detailed Error Information:</h4> 
+  <div id="details-left"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Module</th><td>&nbsp;&nbsp;&nbsp;IIS Web Core</td></tr> 
+    <tr><th>Notification</th><td>&nbsp;&nbsp;&nbsp;MapRequestHandler</td></tr> 
+    <tr class="alt"><th>Handler</th><td>&nbsp;&nbsp;&nbsp;StaticFile</td></tr> 
+    <tr><th>Error Code</th><td>&nbsp;&nbsp;&nbsp;0x80070002</td></tr> 
+     
+   </table> 
+  </div> 
+  <div id="details-right"> 
+   <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr class="alt"><th>Requested URL</th><td>&nbsp;&nbsp;&nbsp;http://localhost:80/SISGP/api/api/v1/dominio/ModalidadeExecucao</td></tr> 
+    <tr><th>Physical Path</th><td>&nbsp;&nbsp;&nbsp;C:\Sistema_Programa_de_Gestao_Susep-main\install\SISGP\api\api\v1\dominio\ModalidadeExecucao</td></tr> 
+    <tr class="alt"><th>Logon Method</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+    <tr><th>Logon User</th><td>&nbsp;&nbsp;&nbsp;Anonymous</td></tr> 
+     
+   </table> 
+   <div class="clear"></div> 
+  </div> 
+ </fieldset> 
+</div> 
+ 
+<div class="content-container"> 
+ <fieldset><h4>More Information:</h4> 
+  This error means that the file or directory does not exist on the server. Create the file or directory and try the request again. 
+  <p><a href="https://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=404,0,0x80070002,19041">View more information &raquo;</a></p> 
+   
+ </fieldset> 
+</div> 
+</div> 
+</body> 
+</html> 
+
+Response headers: 
+Cache-Control:private
+Date:Fri, 14 May 2021 15:42:32 GMT
+Content-Type:text/html; charset=utf-8
+Server:Microsoft-IIS/10.0
+Content-Length:4936
+X-Powered-By:ASP.NET
+
+2021-05-14 12:42:32.991 -03:00 [INF] Request finished in 245.5534ms 404 text/html; charset=utf-8
+2021-05-14 13:15:57.546 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:9829/GATEWAY/iisintegration  0
+2021-05-14 13:15:57.547 -03:00 [INF] Request finished in 1.2266ms 202 
+2021-05-14 14:51:03.738 -03:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1878738545-2699076131-2710155362-3366582735-887525985\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-14 14:51:04.357 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway  
+2021-05-14 14:51:04.398 -03:00 [WRN] Failed to determine the https port for redirect.
+2021-05-14 14:51:05.078 -03:00 [WRN] requestId: 0HM8N03C216MU:00000001, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: , verb: GET.
+2021-05-14 14:51:05.079 -03:00 [WRN] requestId: 0HM8N03C216MU:00000001, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: , verb: GET.
+2021-05-14 14:51:05.081 -03:00 [WRN] requestId: 0HM8N03C216MU:00000001, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: , verb: GET. errors found in ResponderMiddleware. Setting error response for request path:, request method: GET
+2021-05-14 14:51:05.084 -03:00 [INF] Request: http localhost  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:ec2e0e56-e34c-49ef-a122-e2c7b47acc56
+X-Original-Proto:http
+X-Original-For:127.0.0.1:49892
+Response: 404: 
+Response headers: 
+
+2021-05-14 14:51:05.088 -03:00 [INF] Request finished in 733.5661ms 404 
+2021-05-14 15:09:36.103 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-05-14 15:09:36.345 -03:00 [INF] requestId: 0HM8N03C216MV:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/api/v1/dominio/ModalidadeExecucao
+2021-05-14 15:09:36.348 -03:00 [INF] requestId: 0HM8N03C216MV:00000001, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-05-14 15:09:36.350 -03:00 [INF] requestId: 0HM8N03C216MV:00000001, previousRequestId: no previous request id, message: /api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-05-14 15:09:36.500 -03:00 [INF] requestId: 0HM8N03C216MV:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/api/v1/dominio/ModalidadeExecucao
+2021-05-14 15:09:36.530 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:ec2e0e56-e34c-49ef-a122-e2c7b47acc56
+X-Original-Proto:http
+X-Original-For:127.0.0.1:50158
+Response: 200: {"retorno":[{"id":101,"descricao":"Presencial"},{"id":103,"descricao":"Teletrabalho Integral"},{"id":102,"descricao":"Teletrabalho Parcial"}],"mensagem":null,"validacoes":[],"protocolo":null}
+Response headers: 
+Date:Fri, 14 May 2021 18:09:36 GMT
+Content-Type:application/json
+Server:Kestrel
+Content-Length:191
+api-supported-versions:1.0
+X-Powered-By:ASP.NET
+
+2021-05-14 15:09:36.536 -03:00 [INF] Request finished in 433.4012ms 200 application/json
+2021-05-14 16:04:55.238 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:34652/GATEWAY/iisintegration  0
+2021-05-14 16:04:55.240 -03:00 [INF] Request finished in 2.2711ms 202 

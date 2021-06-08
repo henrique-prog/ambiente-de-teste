@@ -1,0 +1,331 @@
+2021-06-02 13:39:53.651 -03:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1878738545-2699076131-2710155362-3366582735-887525985\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-02 13:39:53.814 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost/gateway/connect/token application/x-www-form-urlencoded 97
+2021-06-02 13:39:53.842 -03:00 [INF] CORS policy execution successful.
+2021-06-02 13:39:53.844 -03:00 [WRN] Failed to determine the https port for redirect.
+2021-06-02 13:39:54.009 -03:00 [INF] requestId: 0HM95SK68LT06:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/connect/{everything}
+2021-06-02 13:39:54.012 -03:00 [INF] requestId: 0HM95SK68LT06:00000001, previousRequestId: no previous request id, message: No authentication needed for /connect/token
+2021-06-02 13:39:54.014 -03:00 [INF] requestId: 0HM95SK68LT06:00000001, previousRequestId: no previous request id, message: /api/connect/{everything} route does not require user to be authorised
+2021-06-02 13:39:57.608 -03:00 [INF] requestId: 0HM95SK68LT06:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/connect/token
+2021-06-02 13:39:57.633 -03:00 [INF] Request: http localhost/connect/token  grant_type=client_credentials&client_id=SISGP.Web&scope=SISGP.ProgramaGestao&client_secret=secret
+Request headers:
+Connection:Keep-Alive
+Content-Type:application/x-www-form-urlencoded
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+Referer:http://localhost/app
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Origin:http://localhost
+Content-Length:97
+MS-ASPNETCORE-TOKEN:8286900f-a3f8-47ba-a3d8-bed724e41b9b
+X-Original-Proto:http
+X-Original-For:127.0.0.1:63455
+Response: 200: {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjI2NTE5OTcsImV4cCI6MTYyMjY1NTU5NywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwianRpIjoiNDhGMTZCQ0U1OUM3OUMzMjEzODNDOEJBREVBQjE4RUUiLCJpYXQiOjE2MjI2NTE5OTcsInNjb3BlIjpbIlNJU0dQLlByb2dyYW1hR2VzdGFvIl19.d2pyKeJs5XXrV-hUMpMpCK0np0LYPrrhNG1g13Cyi8o2xBWVOvGImJn1K1u2hJS_8rPVo5KkhLGFgG2AJGoo5QD08CtoraSrIjxeyeSXhHjC2gnugXlXuB8R166G5cK1r_WE3xiNs9imfQ705CpbqlFNVim-dBCskYbrbHIJYIz3FDm7BYGPlki5AClV_WHyeDlNYt7qfIQ2tH6at-rEFFKoTfr--4ubiCzsr6Ao4W6xgZY3BKc12ogm_OSjBoD5k0wjefhg2acKndNJ1MtqHdjS9y0QMQX6QbzZ871lq6AsYKeOcXpQG1mMoatykDLYlBQ19qWf7B7-cWHeeL985g","expires_in":3600,"token_type":"Bearer","scope":"SISGP.ProgramaGestao"}
+Response headers: 
+Cache-Control:no-store, no-cache, max-age=0
+Date:Wed, 02 Jun 2021 16:39:57 GMT
+Pragma:no-cache
+Content-Type:application/json; charset=UTF-8
+Server:Kestrel
+Access-Control-Allow-Origin:*
+Content-Length:801
+X-Powered-By:ASP.NET
+
+2021-06-02 13:39:57.639 -03:00 [INF] Request finished in 3828.1153ms 200 application/json; charset=UTF-8
+2021-06-02 13:40:32.213 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost/gateway/connect/token application/x-www-form-urlencoded 125
+2021-06-02 13:40:32.214 -03:00 [INF] CORS policy execution successful.
+2021-06-02 13:40:32.221 -03:00 [INF] requestId: 0HM95SK68LT06:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/connect/{everything}
+2021-06-02 13:40:32.221 -03:00 [INF] requestId: 0HM95SK68LT06:00000002, previousRequestId: no previous request id, message: No authentication needed for /connect/token
+2021-06-02 13:40:32.221 -03:00 [INF] requestId: 0HM95SK68LT06:00000002, previousRequestId: no previous request id, message: /api/connect/{everything} route does not require user to be authorised
+2021-06-02 13:40:34.255 -03:00 [INF] requestId: 0HM95SK68LT06:00000002, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/connect/token
+2021-06-02 13:40:34.256 -03:00 [INF] Request: http localhost/connect/token  grant_type=password&client_id=SISGP.Web&scope=SISGP.ProgramaGestao&username=sisgp_gestor&password=123456&client_secret=secret
+Request headers:
+Connection:Keep-Alive
+Content-Type:application/x-www-form-urlencoded
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+Referer:http://localhost/app/login
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Origin:http://localhost
+Content-Length:125
+MS-ASPNETCORE-TOKEN:8286900f-a3f8-47ba-a3d8-bed724e41b9b
+X-Original-Proto:http
+X-Original-For:127.0.0.1:63455
+Response: 200: {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjI2NTIwMzQsImV4cCI6MTYyMjY1NTYzNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYyMjY1MjAzNCwiaWRwIjoibG9jYWwiLCJqdGkiOiJGRjI1OTc1RUVBODU4M0Q2RTQyQ0U2MkY1RDQ1RkVBNyIsImlhdCI6MTYyMjY1MjAzNCwic2NvcGUiOlsiU0lTR1AuUHJvZ3JhbWFHZXN0YW8iXSwiYW1yIjpbInBhc3N3b3JkIl19.W8JhgPhaIqcYaFAjP6OM15fR07vnb3bPA44Yofwk5IVDicUNK5h8V1Tsc5Nvlft_2v2yq89CbpzF8GTjEgtqCHHIk7ZwoKwtk-Alfh1LHgMrmB4kI88HJ0XlFDoZD9xoY-MYJv07dE8OJcmKKpSMNKrPAYn_Ux5gbhl1pPzIgj-d6qGx3v_ELB5JPLDScmuxLlEKJOIDQlU5Lu3k9tK7QdGBBtDwrmtdCwu1mnhWgPzVHCi7ay3mLPAJB1hd1Qmfms6HethRRnnq7HlI2k4ThSc2q4k6wPnJs81BZxcwMbraD25esQzkenzv3Hijd1FyuzQeiWfo6KfViGL1_3gLtQ","expires_in":3600,"token_type":"Bearer","scope":"SISGP.ProgramaGestao"}
+Response headers: 
+Cache-Control:no-store, no-cache, max-age=0
+Date:Wed, 02 Jun 2021 16:40:34 GMT
+Pragma:no-cache
+Content-Type:application/json; charset=UTF-8
+Server:Kestrel
+Access-Control-Allow-Origin:*
+Content-Length:889
+X-Powered-By:ASP.NET
+
+2021-06-02 13:40:34.257 -03:00 [INF] Request finished in 2044.5331ms 200 application/json; charset=UTF-8
+2021-06-02 13:40:34.268 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/pessoa/perfil  
+2021-06-02 13:40:34.625 -03:00 [INF] Successfully validated the token.
+2021-06-02 13:40:34.785 -03:00 [INF] requestId: 0HM95SK68LT06:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/api/v1/pessoa/perfil
+2021-06-02 13:40:34.785 -03:00 [INF] requestId: 0HM95SK68LT06:00000003, previousRequestId: no previous request id, message: /pessoa/perfil is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2021-06-02 13:40:34.786 -03:00 [INF] requestId: 0HM95SK68LT06:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /pessoa/perfil
+2021-06-02 13:40:34.786 -03:00 [INF] requestId: 0HM95SK68LT06:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2021-06-02 13:40:34.787 -03:00 [INF] requestId: 0HM95SK68LT06:00000003, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks
+2021-06-02 13:40:34.787 -03:00 [INF] requestId: 0HM95SK68LT06:00000003, previousRequestId: no previous request id, message: /api/api/v1/pessoa/perfil route does not require user to be authorised
+2021-06-02 13:40:35.367 -03:00 [INF] requestId: 0HM95SK68LT06:00000003, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/api/v1/pessoa/perfil
+2021-06-02 13:40:35.369 -03:00 [INF] Request: http localhost/pessoa/perfil  
+Request headers:
+Connection:Keep-Alive
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Authorization:Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjI2NTIwMzQsImV4cCI6MTYyMjY1NTYzNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYyMjY1MjAzNCwiaWRwIjoibG9jYWwiLCJqdGkiOiJGRjI1OTc1RUVBODU4M0Q2RTQyQ0U2MkY1RDQ1RkVBNyIsImlhdCI6MTYyMjY1MjAzNCwic2NvcGUiOlsiU0lTR1AuUHJvZ3JhbWFHZXN0YW8iXSwiYW1yIjpbInBhc3N3b3JkIl19.W8JhgPhaIqcYaFAjP6OM15fR07vnb3bPA44Yofwk5IVDicUNK5h8V1Tsc5Nvlft_2v2yq89CbpzF8GTjEgtqCHHIk7ZwoKwtk-Alfh1LHgMrmB4kI88HJ0XlFDoZD9xoY-MYJv07dE8OJcmKKpSMNKrPAYn_Ux5gbhl1pPzIgj-d6qGx3v_ELB5JPLDScmuxLlEKJOIDQlU5Lu3k9tK7QdGBBtDwrmtdCwu1mnhWgPzVHCi7ay3mLPAJB1hd1Qmfms6HethRRnnq7HlI2k4ThSc2q4k6wPnJs81BZxcwMbraD25esQzkenzv3Hijd1FyuzQeiWfo6KfViGL1_3gLtQ
+Host:localhost
+Referer:http://localhost/app/login
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+MS-ASPNETCORE-TOKEN:8286900f-a3f8-47ba-a3d8-bed724e41b9b
+X-Original-Proto:http
+X-Original-For:127.0.0.1:63455
+Response: 200: {"retorno":{"pessoaId":1,"nome":"Usuário Gestor","unidadeId":7,"perfis":[{"perfil":1007,"unidades":[]},{"perfil":1004,"unidades":[7]}]},"mensagem":null,"validacoes":[],"protocolo":null}
+Response headers: 
+Date:Wed, 02 Jun 2021 16:40:35 GMT
+Content-Type:application/json
+Server:Kestrel
+Content-Length:186
+api-supported-versions:1.0
+X-Powered-By:ASP.NET
+
+2021-06-02 13:40:35.369 -03:00 [INF] Request finished in 1101.7367ms 200 application/json
+2021-06-02 13:40:35.414 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/pessoa/dashboard  
+2021-06-02 13:40:35.416 -03:00 [INF] Successfully validated the token.
+2021-06-02 13:40:35.417 -03:00 [INF] requestId: 0HM95SK68LT06:00000004, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/api/v1/pessoa/{pessoaId}
+2021-06-02 13:40:35.417 -03:00 [INF] requestId: 0HM95SK68LT06:00000004, previousRequestId: no previous request id, message: /pessoa/dashboard is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2021-06-02 13:40:35.417 -03:00 [INF] requestId: 0HM95SK68LT06:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /pessoa/dashboard
+2021-06-02 13:40:35.417 -03:00 [INF] requestId: 0HM95SK68LT06:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2021-06-02 13:40:35.418 -03:00 [INF] requestId: 0HM95SK68LT06:00000004, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks
+2021-06-02 13:40:35.418 -03:00 [INF] requestId: 0HM95SK68LT06:00000004, previousRequestId: no previous request id, message: /api/api/v1/pessoa/{pessoaId} route does not require user to be authorised
+2021-06-02 13:40:35.569 -03:00 [INF] requestId: 0HM95SK68LT06:00000004, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/api/v1/pessoa/dashboard
+2021-06-02 13:40:35.570 -03:00 [INF] Request: http localhost/pessoa/dashboard  
+Request headers:
+Connection:Keep-Alive
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Authorization:Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjI2NTIwMzQsImV4cCI6MTYyMjY1NTYzNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYyMjY1MjAzNCwiaWRwIjoibG9jYWwiLCJqdGkiOiJGRjI1OTc1RUVBODU4M0Q2RTQyQ0U2MkY1RDQ1RkVBNyIsImlhdCI6MTYyMjY1MjAzNCwic2NvcGUiOlsiU0lTR1AuUHJvZ3JhbWFHZXN0YW8iXSwiYW1yIjpbInBhc3N3b3JkIl19.W8JhgPhaIqcYaFAjP6OM15fR07vnb3bPA44Yofwk5IVDicUNK5h8V1Tsc5Nvlft_2v2yq89CbpzF8GTjEgtqCHHIk7ZwoKwtk-Alfh1LHgMrmB4kI88HJ0XlFDoZD9xoY-MYJv07dE8OJcmKKpSMNKrPAYn_Ux5gbhl1pPzIgj-d6qGx3v_ELB5JPLDScmuxLlEKJOIDQlU5Lu3k9tK7QdGBBtDwrmtdCwu1mnhWgPzVHCi7ay3mLPAJB1hd1Qmfms6HethRRnnq7HlI2k4ThSc2q4k6wPnJs81BZxcwMbraD25esQzkenzv3Hijd1FyuzQeiWfo6KfViGL1_3gLtQ
+Host:localhost
+Referer:http://localhost/app/dashboard
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+MS-ASPNETCORE-TOKEN:8286900f-a3f8-47ba-a3d8-bed724e41b9b
+X-Original-Proto:http
+X-Original-For:127.0.0.1:63455
+Response: 200: {"retorno":{"planosTrabalho":[],"pactosTrabalho":[],"solicitacoes":[]},"mensagem":null,"validacoes":[],"protocolo":null}
+Response headers: 
+Date:Wed, 02 Jun 2021 16:40:35 GMT
+Content-Type:application/json
+Server:Kestrel
+Content-Length:120
+api-supported-versions:1.0
+X-Powered-By:ASP.NET
+
+2021-06-02 13:40:35.570 -03:00 [INF] Request finished in 156.198ms 200 application/json
+2021-06-02 13:50:59.005 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/situacaoplanotrabalho  
+2021-06-02 13:50:59.010 -03:00 [INF] Successfully validated the token.
+2021-06-02 13:50:59.013 -03:00 [INF] requestId: 0HM95SK68LT07:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/api/v1/dominio/SituacaoPlanoTrabalho
+2021-06-02 13:50:59.014 -03:00 [INF] requestId: 0HM95SK68LT07:00000001, previousRequestId: no previous request id, message: /dominio/situacaoplanotrabalho is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2021-06-02 13:50:59.014 -03:00 [INF] requestId: 0HM95SK68LT07:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /dominio/situacaoplanotrabalho
+2021-06-02 13:50:59.014 -03:00 [INF] requestId: 0HM95SK68LT07:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2021-06-02 13:50:59.016 -03:00 [INF] requestId: 0HM95SK68LT07:00000001, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks
+2021-06-02 13:50:59.016 -03:00 [INF] requestId: 0HM95SK68LT07:00000001, previousRequestId: no previous request id, message: /api/api/v1/dominio/SituacaoPlanoTrabalho route does not require user to be authorised
+2021-06-02 13:50:59.029 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/unidade/complanotrabalho  
+2021-06-02 13:50:59.031 -03:00 [INF] Successfully validated the token.
+2021-06-02 13:50:59.032 -03:00 [INF] requestId: 0HM95SK68LT08:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/api/v1/unidade/complanotrabalho
+2021-06-02 13:50:59.032 -03:00 [INF] requestId: 0HM95SK68LT08:00000001, previousRequestId: no previous request id, message: /unidade/complanotrabalho is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2021-06-02 13:50:59.032 -03:00 [INF] requestId: 0HM95SK68LT08:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /unidade/complanotrabalho
+2021-06-02 13:50:59.032 -03:00 [INF] requestId: 0HM95SK68LT08:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2021-06-02 13:50:59.033 -03:00 [INF] requestId: 0HM95SK68LT08:00000001, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks
+2021-06-02 13:50:59.033 -03:00 [INF] requestId: 0HM95SK68LT08:00000001, previousRequestId: no previous request id, message: /api/api/v1/unidade/complanotrabalho route does not require user to be authorised
+2021-06-02 13:50:59.041 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/planotrabalho?page=1  
+2021-06-02 13:50:59.042 -03:00 [INF] Successfully validated the token.
+2021-06-02 13:50:59.042 -03:00 [INF] requestId: 0HM95SK68LT09:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/api/v1/planotrabalho
+2021-06-02 13:50:59.042 -03:00 [INF] requestId: 0HM95SK68LT09:00000001, previousRequestId: no previous request id, message: /planotrabalho is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2021-06-02 13:50:59.043 -03:00 [INF] requestId: 0HM95SK68LT09:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /planotrabalho
+2021-06-02 13:50:59.043 -03:00 [INF] requestId: 0HM95SK68LT09:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2021-06-02 13:50:59.043 -03:00 [INF] requestId: 0HM95SK68LT09:00000001, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks
+2021-06-02 13:50:59.043 -03:00 [INF] requestId: 0HM95SK68LT09:00000001, previousRequestId: no previous request id, message: /api/api/v1/planotrabalho route does not require user to be authorised
+2021-06-02 13:50:59.148 -03:00 [INF] requestId: 0HM95SK68LT07:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/api/v1/dominio/SituacaoPlanoTrabalho
+2021-06-02 13:50:59.158 -03:00 [INF] Request: http localhost/dominio/situacaoplanotrabalho  
+Request headers:
+Connection:Keep-Alive
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Authorization:Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjI2NTIwMzQsImV4cCI6MTYyMjY1NTYzNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYyMjY1MjAzNCwiaWRwIjoibG9jYWwiLCJqdGkiOiJGRjI1OTc1RUVBODU4M0Q2RTQyQ0U2MkY1RDQ1RkVBNyIsImlhdCI6MTYyMjY1MjAzNCwic2NvcGUiOlsiU0lTR1AuUHJvZ3JhbWFHZXN0YW8iXSwiYW1yIjpbInBhc3N3b3JkIl19.W8JhgPhaIqcYaFAjP6OM15fR07vnb3bPA44Yofwk5IVDicUNK5h8V1Tsc5Nvlft_2v2yq89CbpzF8GTjEgtqCHHIk7ZwoKwtk-Alfh1LHgMrmB4kI88HJ0XlFDoZD9xoY-MYJv07dE8OJcmKKpSMNKrPAYn_Ux5gbhl1pPzIgj-d6qGx3v_ELB5JPLDScmuxLlEKJOIDQlU5Lu3k9tK7QdGBBtDwrmtdCwu1mnhWgPzVHCi7ay3mLPAJB1hd1Qmfms6HethRRnnq7HlI2k4ThSc2q4k6wPnJs81BZxcwMbraD25esQzkenzv3Hijd1FyuzQeiWfo6KfViGL1_3gLtQ
+Host:localhost
+Referer:http://localhost/app/programagestao
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+MS-ASPNETCORE-TOKEN:8286900f-a3f8-47ba-a3d8-bed724e41b9b
+X-Original-Proto:http
+X-Original-For:127.0.0.1:63624
+Response: 200: {"retorno":[{"id":311,"descricao":"Concluído"},{"id":309,"descricao":"Em execução"},{"id":310,"descricao":"Executado"},{"id":307,"descricao":"Habilitação"},{"id":301,"descricao":"Rascunho"}],"mensagem":null,"validacoes":[],"protocolo":null}
+Response headers: 
+Date:Wed, 02 Jun 2021 16:50:59 GMT
+Content-Type:application/json
+Server:Kestrel
+Content-Length:245
+api-supported-versions:1.0
+X-Powered-By:ASP.NET
+
+2021-06-02 13:50:59.160 -03:00 [INF] Request finished in 155.8138ms 200 application/json
+2021-06-02 13:50:59.178 -03:00 [INF] requestId: 0HM95SK68LT08:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/api/v1/unidade/complanotrabalho
+2021-06-02 13:50:59.178 -03:00 [INF] Request: http localhost/unidade/complanotrabalho  
+Request headers:
+Connection:Keep-Alive
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Authorization:Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjI2NTIwMzQsImV4cCI6MTYyMjY1NTYzNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYyMjY1MjAzNCwiaWRwIjoibG9jYWwiLCJqdGkiOiJGRjI1OTc1RUVBODU4M0Q2RTQyQ0U2MkY1RDQ1RkVBNyIsImlhdCI6MTYyMjY1MjAzNCwic2NvcGUiOlsiU0lTR1AuUHJvZ3JhbWFHZXN0YW8iXSwiYW1yIjpbInBhc3N3b3JkIl19.W8JhgPhaIqcYaFAjP6OM15fR07vnb3bPA44Yofwk5IVDicUNK5h8V1Tsc5Nvlft_2v2yq89CbpzF8GTjEgtqCHHIk7ZwoKwtk-Alfh1LHgMrmB4kI88HJ0XlFDoZD9xoY-MYJv07dE8OJcmKKpSMNKrPAYn_Ux5gbhl1pPzIgj-d6qGx3v_ELB5JPLDScmuxLlEKJOIDQlU5Lu3k9tK7QdGBBtDwrmtdCwu1mnhWgPzVHCi7ay3mLPAJB1hd1Qmfms6HethRRnnq7HlI2k4ThSc2q4k6wPnJs81BZxcwMbraD25esQzkenzv3Hijd1FyuzQeiWfo6KfViGL1_3gLtQ
+Host:localhost
+Referer:http://localhost/app/programagestao
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+MS-ASPNETCORE-TOKEN:8286900f-a3f8-47ba-a3d8-bed724e41b9b
+X-Original-Proto:http
+X-Original-For:127.0.0.1:63627
+Response: 200: {"retorno":[],"mensagem":null,"validacoes":[],"protocolo":null}
+Response headers: 
+Date:Wed, 02 Jun 2021 16:50:59 GMT
+Content-Type:application/json
+Server:Kestrel
+Content-Length:63
+api-supported-versions:1.0
+X-Powered-By:ASP.NET
+
+2021-06-02 13:50:59.178 -03:00 [INF] Request finished in 149.0115ms 200 application/json
+2021-06-02 13:50:59.205 -03:00 [INF] requestId: 0HM95SK68LT09:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/api/v1/planotrabalho?page=1
+2021-06-02 13:50:59.206 -03:00 [INF] Request: http localhost/planotrabalho ?page=1 
+Request headers:
+Connection:Keep-Alive
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Authorization:Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjI2NTIwMzQsImV4cCI6MTYyMjY1NTYzNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYyMjY1MjAzNCwiaWRwIjoibG9jYWwiLCJqdGkiOiJGRjI1OTc1RUVBODU4M0Q2RTQyQ0U2MkY1RDQ1RkVBNyIsImlhdCI6MTYyMjY1MjAzNCwic2NvcGUiOlsiU0lTR1AuUHJvZ3JhbWFHZXN0YW8iXSwiYW1yIjpbInBhc3N3b3JkIl19.W8JhgPhaIqcYaFAjP6OM15fR07vnb3bPA44Yofwk5IVDicUNK5h8V1Tsc5Nvlft_2v2yq89CbpzF8GTjEgtqCHHIk7ZwoKwtk-Alfh1LHgMrmB4kI88HJ0XlFDoZD9xoY-MYJv07dE8OJcmKKpSMNKrPAYn_Ux5gbhl1pPzIgj-d6qGx3v_ELB5JPLDScmuxLlEKJOIDQlU5Lu3k9tK7QdGBBtDwrmtdCwu1mnhWgPzVHCi7ay3mLPAJB1hd1Qmfms6HethRRnnq7HlI2k4ThSc2q4k6wPnJs81BZxcwMbraD25esQzkenzv3Hijd1FyuzQeiWfo6KfViGL1_3gLtQ
+Host:localhost
+Referer:http://localhost/app/programagestao
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+MS-ASPNETCORE-TOKEN:8286900f-a3f8-47ba-a3d8-bed724e41b9b
+X-Original-Proto:http
+X-Original-For:127.0.0.1:63628
+Response: 200: {"retorno":{"controle":{"totalRegistros":0,"tamanhoPagina":10,"paginaAtual":1,"totalRegistrosPaginaAtual":0,"totalPaginas":0},"registros":[]},"mensagem":null,"validacoes":[],"protocolo":null}
+Response headers: 
+Date:Wed, 02 Jun 2021 16:50:59 GMT
+Content-Type:application/json
+Server:Kestrel
+Content-Length:191
+api-supported-versions:1.0
+X-Powered-By:ASP.NET
+
+2021-06-02 13:50:59.206 -03:00 [INF] Request finished in 165.0557ms 200 application/json
+2021-06-02 14:10:44.502 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/pessoa/dashboard  
+2021-06-02 14:10:44.505 -03:00 [INF] Successfully validated the token.
+2021-06-02 14:10:44.506 -03:00 [INF] requestId: 0HM95SK68LT0A:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/api/v1/pessoa/{pessoaId}
+2021-06-02 14:10:44.506 -03:00 [INF] requestId: 0HM95SK68LT0A:00000001, previousRequestId: no previous request id, message: /pessoa/dashboard is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2021-06-02 14:10:44.506 -03:00 [INF] requestId: 0HM95SK68LT0A:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /pessoa/dashboard
+2021-06-02 14:10:44.506 -03:00 [INF] requestId: 0HM95SK68LT0A:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2021-06-02 14:10:44.506 -03:00 [INF] requestId: 0HM95SK68LT0A:00000001, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks
+2021-06-02 14:10:44.506 -03:00 [INF] requestId: 0HM95SK68LT0A:00000001, previousRequestId: no previous request id, message: /api/api/v1/pessoa/{pessoaId} route does not require user to be authorised
+2021-06-02 14:10:44.733 -03:00 [INF] requestId: 0HM95SK68LT0A:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/api/v1/pessoa/dashboard
+2021-06-02 14:10:44.734 -03:00 [INF] Request: http localhost/pessoa/dashboard  
+Request headers:
+Connection:Keep-Alive
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Authorization:Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjI2NTIwMzQsImV4cCI6MTYyMjY1NTYzNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYyMjY1MjAzNCwiaWRwIjoibG9jYWwiLCJqdGkiOiJGRjI1OTc1RUVBODU4M0Q2RTQyQ0U2MkY1RDQ1RkVBNyIsImlhdCI6MTYyMjY1MjAzNCwic2NvcGUiOlsiU0lTR1AuUHJvZ3JhbWFHZXN0YW8iXSwiYW1yIjpbInBhc3N3b3JkIl19.W8JhgPhaIqcYaFAjP6OM15fR07vnb3bPA44Yofwk5IVDicUNK5h8V1Tsc5Nvlft_2v2yq89CbpzF8GTjEgtqCHHIk7ZwoKwtk-Alfh1LHgMrmB4kI88HJ0XlFDoZD9xoY-MYJv07dE8OJcmKKpSMNKrPAYn_Ux5gbhl1pPzIgj-d6qGx3v_ELB5JPLDScmuxLlEKJOIDQlU5Lu3k9tK7QdGBBtDwrmtdCwu1mnhWgPzVHCi7ay3mLPAJB1hd1Qmfms6HethRRnnq7HlI2k4ThSc2q4k6wPnJs81BZxcwMbraD25esQzkenzv3Hijd1FyuzQeiWfo6KfViGL1_3gLtQ
+Host:localhost
+Referer:http://localhost/app/dashboard
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+MS-ASPNETCORE-TOKEN:8286900f-a3f8-47ba-a3d8-bed724e41b9b
+X-Original-Proto:http
+X-Original-For:127.0.0.1:63831
+Response: 200: {"retorno":{"planosTrabalho":[],"pactosTrabalho":[],"solicitacoes":[]},"mensagem":null,"validacoes":[],"protocolo":null}
+Response headers: 
+Date:Wed, 02 Jun 2021 17:10:44 GMT
+Content-Type:application/json
+Server:Kestrel
+Content-Length:120
+api-supported-versions:1.0
+X-Powered-By:ASP.NET
+
+2021-06-02 14:10:44.735 -03:00 [INF] Request finished in 232.7768ms 200 application/json
+2021-06-02 14:30:48.956 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:38069/GATEWAY/iisintegration  0
+2021-06-02 14:30:48.957 -03:00 [INF] Request finished in 1.4938ms 202 
+2021-06-02 14:39:18.711 -03:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1878738545-2699076131-2710155362-3366582735-887525985\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-02 14:39:19.113 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-06-02 14:39:19.152 -03:00 [WRN] Failed to determine the https port for redirect.
+2021-06-02 14:39:19.441 -03:00 [INF] requestId: 0HM95TLCPULSC:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/api/v1/dominio/ModalidadeExecucao
+2021-06-02 14:39:19.444 -03:00 [INF] requestId: 0HM95TLCPULSC:00000001, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-06-02 14:39:19.446 -03:00 [INF] requestId: 0HM95TLCPULSC:00000001, previousRequestId: no previous request id, message: /api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-06-02 14:39:19.580 -03:00 [INF] requestId: 0HM95TLCPULSC:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/api/v1/dominio/ModalidadeExecucao
+2021-06-02 14:39:19.615 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:e8d36ff6-360a-4b46-a526-9e64935d0fd8
+X-Original-Proto:http
+X-Original-For:127.0.0.1:64121
+Response: 200: {"retorno":[{"id":101,"descricao":"Presencial"},{"id":103,"descricao":"Teletrabalho Integral"},{"id":102,"descricao":"Teletrabalho Parcial"}],"mensagem":null,"validacoes":[],"protocolo":null}
+Response headers: 
+Date:Wed, 02 Jun 2021 17:39:19 GMT
+Content-Type:application/json
+Server:Kestrel
+Content-Length:191
+api-supported-versions:1.0
+X-Powered-By:ASP.NET
+
+2021-06-02 14:39:19.623 -03:00 [INF] Request finished in 512.6389ms 200 application/json
+2021-06-02 14:59:43.295 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:30393/GATEWAY/iisintegration  0
+2021-06-02 14:59:43.297 -03:00 [INF] Request finished in 2.0544ms 202 
+2021-06-02 16:07:46.124 -03:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1878738545-2699076131-2710155362-3366582735-887525985\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-02 16:07:46.337 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost/gateway/connect/token application/x-www-form-urlencoded 97
+2021-06-02 16:07:46.362 -03:00 [INF] CORS policy execution successful.
+2021-06-02 16:07:46.363 -03:00 [WRN] Failed to determine the https port for redirect.
+2021-06-02 16:07:46.518 -03:00 [INF] requestId: 0HM95V6QFKOHF:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/connect/{everything}
+2021-06-02 16:07:46.521 -03:00 [INF] requestId: 0HM95V6QFKOHF:00000001, previousRequestId: no previous request id, message: No authentication needed for /connect/token
+2021-06-02 16:07:46.524 -03:00 [INF] requestId: 0HM95V6QFKOHF:00000001, previousRequestId: no previous request id, message: /api/connect/{everything} route does not require user to be authorised
+2021-06-02 16:07:48.508 -03:00 [INF] requestId: 0HM95V6QFKOHF:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/connect/token
+2021-06-02 16:07:48.535 -03:00 [INF] Request: http localhost/connect/token  grant_type=client_credentials&client_id=SISGP.Web&scope=SISGP.ProgramaGestao&client_secret=secret
+Request headers:
+Cache-Control:max-age=0
+Connection:Keep-Alive
+Content-Type:application/x-www-form-urlencoded
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+Referer:http://localhost/app/dashboard
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Origin:http://localhost
+Content-Length:97
+MS-ASPNETCORE-TOKEN:f035a757-4421-43bc-a704-0681621266f8
+X-Original-Proto:http
+X-Original-For:127.0.0.1:54387
+Response: 200: {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjI2NjA4NjgsImV4cCI6MTYyMjY2NDQ2OCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwianRpIjoiMDYxQTYzNUJGNjI1ODk2ODJDRTVENzhGREM3QUEwNkYiLCJpYXQiOjE2MjI2NjA4NjgsInNjb3BlIjpbIlNJU0dQLlByb2dyYW1hR2VzdGFvIl19.K2frt3sUFuktE7vbErfe3G05e12VOYXeLg_AVbXCFm20ZBvx7ZDVW2wzXQaBBgpy3d2iv-FeLTpFbyMw5nX2DvdHH80D3p1PhHt5kMYH6SKiAg8dQQ1y8_b4MmyI-KgckHWdnUE0jFXz3ZP6akBxYDNdal_nz3zSj8rI1GkubwkrYc5xdAwte2HAz3VmS68-scW6p1EsHwohQe8udE9dSgB2tt-0g8gFwxjdoxOaSx7OexvlG2ggGeIaMTKKJYbBPwSwjwbpj4Q4cTWF3A4wD0CYU_fkxBx9CjWLfaMdmhh3EJI3rfZ5IUpt9Jy6Iu2tO-2dG6_W5cUF-sNXoVZeKA","expires_in":3600,"token_type":"Bearer","scope":"SISGP.ProgramaGestao"}
+Response headers: 
+Cache-Control:no-store, no-cache, max-age=0
+Date:Wed, 02 Jun 2021 19:07:48 GMT
+Pragma:no-cache
+Content-Type:application/json; charset=UTF-8
+Server:Kestrel
+Access-Control-Allow-Origin:*
+Content-Length:801
+X-Powered-By:ASP.NET
+
+2021-06-02 16:07:48.541 -03:00 [INF] Request finished in 2206.889ms 200 application/json; charset=UTF-8
+2021-06-02 16:28:43.117 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:15180/GATEWAY/iisintegration  0
+2021-06-02 16:28:43.119 -03:00 [INF] Request finished in 1.866ms 202 

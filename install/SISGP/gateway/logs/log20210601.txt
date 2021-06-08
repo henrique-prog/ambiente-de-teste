@@ -1,0 +1,31 @@
+2021-06-01 10:05:43.772 -03:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1878738545-2699076131-2710155362-3366582735-887525985\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-01 10:05:44.176 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost/gateway/dominio/ModalidadeExecucao  
+2021-06-01 10:05:44.216 -03:00 [WRN] Failed to determine the https port for redirect.
+2021-06-01 10:05:44.634 -03:00 [INF] requestId: 0HM94VNRI4H7L:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/api/v1/dominio/ModalidadeExecucao
+2021-06-01 10:05:44.637 -03:00 [INF] requestId: 0HM94VNRI4H7L:00000001, previousRequestId: no previous request id, message: No authentication needed for /dominio/ModalidadeExecucao
+2021-06-01 10:05:44.640 -03:00 [INF] requestId: 0HM94VNRI4H7L:00000001, previousRequestId: no previous request id, message: /api/api/v1/dominio/ModalidadeExecucao route does not require user to be authorised
+2021-06-01 10:05:48.906 -03:00 [INF] requestId: 0HM94VNRI4H7L:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/api/v1/dominio/ModalidadeExecucao
+2021-06-01 10:05:48.945 -03:00 [INF] Request: http localhost/dominio/ModalidadeExecucao  
+Request headers:
+Connection:Keep-Alive
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Upgrade-Insecure-Requests:1
+MS-ASPNETCORE-TOKEN:add4e04b-4ddf-42c5-8a11-3cefe9a172f0
+X-Original-Proto:http
+X-Original-For:127.0.0.1:65502
+Response: 200: {"retorno":[{"id":101,"descricao":"Presencial"},{"id":103,"descricao":"Teletrabalho Integral"},{"id":102,"descricao":"Teletrabalho Parcial"}],"mensagem":null,"validacoes":[],"protocolo":null}
+Response headers: 
+Date:Tue, 01 Jun 2021 13:05:48 GMT
+Content-Type:application/json
+Server:Kestrel
+Content-Length:191
+api-supported-versions:1.0
+X-Powered-By:ASP.NET
+
+2021-06-01 10:05:48.950 -03:00 [INF] Request finished in 4778.9333ms 200 application/json
+2021-06-01 10:26:40.909 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:19283/GATEWAY/iisintegration  0
+2021-06-01 10:26:40.911 -03:00 [INF] Request finished in 1.7208ms 202 

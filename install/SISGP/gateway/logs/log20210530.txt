@@ -1,0 +1,37 @@
+2021-05-30 23:30:29.961 -03:00 [INF] User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-1878738545-2699076131-2710155362-3366582735-887525985\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-30 23:30:30.130 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost/gateway/connect/token application/x-www-form-urlencoded 97
+2021-05-30 23:30:30.153 -03:00 [INF] CORS policy execution successful.
+2021-05-30 23:30:30.154 -03:00 [WRN] Failed to determine the https port for redirect.
+2021-05-30 23:30:30.298 -03:00 [INF] requestId: 0HM93RG7FTUML:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/connect/{everything}
+2021-05-30 23:30:30.301 -03:00 [INF] requestId: 0HM93RG7FTUML:00000001, previousRequestId: no previous request id, message: No authentication needed for /connect/token
+2021-05-30 23:30:30.303 -03:00 [INF] requestId: 0HM93RG7FTUML:00000001, previousRequestId: no previous request id, message: /api/connect/{everything} route does not require user to be authorised
+2021-05-30 23:30:34.261 -03:00 [INF] requestId: 0HM93RG7FTUML:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost/api/connect/token
+2021-05-30 23:30:34.289 -03:00 [INF] Request: http localhost/connect/token  grant_type=client_credentials&client_id=SISGP.Web&scope=SISGP.ProgramaGestao&client_secret=secret
+Request headers:
+Connection:Keep-Alive
+Content-Type:application/x-www-form-urlencoded
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:en-US,en;q=0.5
+Host:localhost
+Referer:http://localhost/app
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Origin:http://localhost
+Content-Length:97
+MS-ASPNETCORE-TOKEN:02902e84-28d5-4db3-b166-0b7671b17b59
+X-Original-Proto:http
+X-Original-For:127.0.0.1:51299
+Response: 200: {"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjkwQjg4QTE5OTgyMjk5NzY3NzhGQTJGNjEwQ0RENzU4IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MjI0MjgyMzQsImV4cCI6MTYyMjQzMTgzNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdC9hcGkiLCJhdWQiOiJTSVNHUC5BUElHYXRld2F5IiwiY2xpZW50X2lkIjoiU0lTR1AuV2ViIiwianRpIjoiODA1ODQ5OEM0MzgwQTFDRTVCQTA4NTc3REU5N0NENjIiLCJpYXQiOjE2MjI0MjgyMzQsInNjb3BlIjpbIlNJU0dQLlByb2dyYW1hR2VzdGFvIl19.apP2WGM3C7mcjjsxnx0gqZhIk0_77nVeyZPERhno3tAOmNF7rl3oiI3ihsaHq5MAU-evjjqSIuiZrTOZebFUoGxhVrorXVUF7LYd-sgY2-GRLgM2cvOkCRw10XMDGrLqKd2Ad04IpQPJUzri1OofbqR5IlzoIj8s-cyXaypQpLHYYmGfDYwuaT_7NYlKzx3F9ed5ya-sggWheLp0CixuP2Y62VdmaeyV-S46si6aPnA8xS0WhOsUhQHAywa8q7ytBdQxcCbNt_cWw7q6W01qj19u1by5V3VcwhY5zzPDC5IsFtTahJ1f-XF0fB2v_LuQQ3bWvb1rxoVoJsOa0PNmtQ","expires_in":3600,"token_type":"Bearer","scope":"SISGP.ProgramaGestao"}
+Response headers: 
+Cache-Control:no-store, no-cache, max-age=0
+Date:Mon, 31 May 2021 02:30:34 GMT
+Pragma:no-cache
+Content-Type:application/json; charset=UTF-8
+Server:Kestrel
+Access-Control-Allow-Origin:*
+Content-Length:801
+X-Powered-By:ASP.NET
+
+2021-05-30 23:30:34.295 -03:00 [INF] Request finished in 4168.2659ms 200 application/json; charset=UTF-8
+2021-05-30 23:50:01.020 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:26293/GATEWAY/iisintegration  0
+2021-05-30 23:50:01.022 -03:00 [INF] Request finished in 1.8437ms 202 
