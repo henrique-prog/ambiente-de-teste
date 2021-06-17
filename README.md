@@ -5,14 +5,14 @@ Disponibiliza-se os arquivos configurados para testes - localhost.
 ## 1ª Etapa - Infraestrutura
 
 ### Sequência de passos 
-> 1. Habilitar IIS -> Imagem de exemplo.
+> 1. Habilitar IIS -> "[Imagem de exemplo](https://github.com/henrique-prog/ambiente-de-teste/blob/main/Habilita%C3%A7%C3%A3o%20IIS.jpg)".
 
 > Realizar a instalação através do Server Manager (Add roles and features);
 > Selecionar o Role Web Server (IIS);
 > Selecionar (IIS);
 > Em Application Development: ASP.NET
 
->2. Instalar os arquivos da pasta dependências.
+>2. Instalar os arquivos da pasta "[dependências](https://github.com/henrique-prog/ambiente-de-teste/blob/main/Instala%C3%A7%C3%A3o%20de%20Depend%C3%AAncias%20.NET%20-%20AMBIENTE.txt)".
 
 ## 2ª Etapa - Base de dados
 
