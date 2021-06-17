@@ -5,7 +5,13 @@ Disponibiliza-se os arquivos configurados para testes - localhost.
 ## 1ª Etapa - Infraestrutura
 
 ### Sequência de passos 
->1. Habilitar IIS -> Imagens de exemplo.
+> 1. Habilitar IIS -> Imagem de exemplo.
+
+> Realizar a instalação através do Server Manager (Add roles and features);
+> Selecionar o Role Web Server (IIS);
+> Selecionar (IIS);
+> Em Application Development: ASP.NET
+
 >2. Instalar os arquivos da pasta dependências.
 
 ## 2ª Etapa - Base de dados
